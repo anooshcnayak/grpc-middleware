@@ -1,0 +1,17 @@
+
+mpilerOptions": {
+    "experimentalDecorators": false,
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
+
